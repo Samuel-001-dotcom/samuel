@@ -1,0 +1,101 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.section h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin: 10px 0;
+}
+
+/* Project Styling */
+.project {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Contact Links */
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#contact ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}

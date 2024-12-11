@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIWES</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <h1>Welcome to my website</h1>
+        <h2>About Artificial Intelligence</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laboriosam quaerat id pariatur ipsam, cupiditate aspernatur magni, facere consequatur repellendus recusandae aliquid? Quia esse sapiente est eius id perferendis cum.</p>
+        </P>
+        <p style="color: rgb(200, 202, 107);">Welcome to my website</p><br>
+
+    <diV style="background-color: rgb(255, 255, 255);">
+        <h2 style="font-size: 30px; text-align: left;">Departments in FCF</h2>
+        <div class="AGT">
+            <h3>Computer Science Departments</h3>
+            <p>Computer Science Departments was established in the year 2xxx. There are xxx fulltime lecturers in the department of computer science </p>
+         </div>
+
+        <div class="COM">
+            <h3>Agric Science Departments</h3>
+            <p>Agric Science Departments was established in the year 2xxx. There are xxx fulltime lecturers in the department of agric science </p>
+        </div>
+
+        <div class="AGT">
+            <h3>Horticultural Science Departments</h3>
+            <p>Horticultural Science Departments was established in the year 2xxx. There are xxx fulltime lecturers in the department of horticultural science </p><br>
+            <p>Thank you for visiting our website</p>
+        </div>
+    </div>
+
+        <h3>Register Now</h3>
+        <form class="COM">
+            <fieldset>
+                <legend>Fill the form below carefully</legend>
+            <label for="Fn">FirstName</label><br>
+            <input type="" name="Fn" id="Fn" value="Samuel">
+        </form><br>
+
+        <form action="">
+            <label for="Ln">LastName</label><br>
+            <input type="" name="Fn" id="Fn" value="Adepoju"><br>
+        </form><br>
+
+            <h3>Choose your favorite course</h3>
+
+            <input type="radio" name="favorite" id="cs" value="computer science">
+            <label for="cs">Computer Science</label>
+
+            <input type="radio" name="favorite" id="cs" value="computer science">
+            <label for="cs">Agric. Science</label>
+
+            <input type="radio" name="favorite" id="cs" value="computer science">
+            <label for="cs">Statistics</label><br>
+
+            <h3>Select your course</h3>
+
+            <input type="checkbox" name="maths" id="maths" value="maths">
+            <label for="maths">Mathematics</label><br>
+
+            <input type="checkbox" name="eng" id="eng" value="eng">
+            <label for="eng">English</label><br>
+
+            <input type="checkbox" name="geo" id="geo" value="geo">
+            <label for="geo">Geography</label><br>
+
+            <h3>Choose your preferred hostel</h3>
+            <label for="hostel">Choose one hostel ONLY</label>
+            <select name="hostel" id="hostel" size="3" multiple>
+                <option value="A">Hostel A</option>
+                <option value="B">Hostel B</option>
+                <option value="C">Hostel C</option>
+                <option value="O">Hollywood</option>
+                <option value="Q">Quarters</option>
+            </select><br>
+            <h3>Attestation</h3>
+            <textarea name="attest"  id="" cols="60" rows="10">I attest that .......</textarea>
+
+        <button>Register</button>
+    </fieldset>
+    </form>
+
+        <p>Vegetables</p>
+        <ul style="list-style-type: square">
+            <li>Letus</li>
+            <li>Onion
+                <ul>
+                    <li>White Onion</li>
+                    <li>Local Onion</li>
+                </ul>
+            </li>
+            <li>Cabbage</li>
+        </ul>
+
+        <p>Fruits</p>
+        <ol type="i">
+            <li>Orange</li>
+            <li>Watermelon</li>
+            <li>Pinapple</li>
+        </ol>
+
+        <dl>
+            <dt>vegetables</dt>
+            <dd>-Letus</dd>
+            <dd>-Onion</dd>
+            <dd>-Cabbage</dd>
+            <dt>Fruits</dt>
+            <dd>-Orange</dd>
+            <dd>-Watermelon</dd>
+            <dd>-Pinapple</dd>
+        </dl>
+        <table style="width: 100%;">
+            <tr>
+                <th>SN</th>
+                <th style="width: 80;">NAME</th>
+                <th>DEPARTMENT</th>
+                <th>LEVEL</th>
+            </tr>
+            <tr style="height: 30px;">
+                <td>1</td>
+                <td>Ajadi Daniel</td>
+                <td>AGT</td>
+                <td>ND2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ojo Victor</td>
+                <td>MASSCOM</td>
+                <td>ND2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ibrahim Idris</td>
+                <td>COSSA</td>
+                <td>ND2</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Senator Asepeoluwa</td>
+                <td>COSSA</td>
+                <td>ND2</td>
+            </tr>
+        </table>
+        <button onClick="alertUs()">Subscribe</button>
+
+        <script>
+            function alertUs() {
+                alert("welcome to my website");
+            }
+        </script>
+
+        <P id="text">My amazing website</P>
+
+        <button onclick="changetext()">Click me</button>
+
+        <script>
+            function changetext() {
+                document.getElementById("text").innerHTML = "You have used my website. Thank you!"
+            }
+        </script>
+        <p><i>Choices are here</i></p>
+        <p>This is <sub>subscript</sub>and this is <sup>superscript</sup></p>
+        <p>H<sub>2</sub>0</p>
+        <p>Make your <mark>decision</mark>now</p>
+        <p>I like <del>red</del></p>
+        <p>I have made my <u>choice</u></p>
+        <a href="http://fcfibadan.edu.ng">Visit our website to read more </a><br><br>
+        <a href=""></a>
+        <img style="padding-left: center;" src="Roll\WIN_20241009_16_32_48_Pro.jpg" alt="">
+</body>
+
+    <footer>
+        <small>&copy;copyright reserved siwes 2024 name=adeplenty</small>
+    </footer>
+</html>

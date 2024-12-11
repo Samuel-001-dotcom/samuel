@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(35, 172, 131);
+}
+h1 {
+    color: blue;
+    font-size:  60px;
+}
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+div {
+    background-color: beige;
+}
+.COM {
+    background-color: white;
+    color: blueviolet;
+    border: solid 2px black;
+    margin: 20px;
+    padding: 20px;
+}
+.AGT {
+    background-color: goldenrod;
+    color: azure;
+    border: solid 8px tomato;
+    margin: 20px;
+    padding: 10px;
+}
+.HOT {
+    background-color: blanchedalmond;
+    color: aquamarine;
+    border: solid 5px sandybrown;
+    margin: 20px;
+    padding: 10px;
+}
+
+/**p {
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    border: solid;
+}
+
+button{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 50px;
+}**/
+
+table, th, td {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
